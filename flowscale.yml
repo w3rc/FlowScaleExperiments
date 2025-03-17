@@ -9,3 +9,7 @@ normal_workflows:
     name: ace_plus_fft_workflow_referenceediting_generation.json
     file: test/ace_plus_fft_workflow_referenceediting_generation.json
     version: 0
+  - id: 7rtjmexaa3d
+    name: flux_acefaceswap_sebastiankamphpatreon_v3.json
+    file: test/flux_acefaceswap_sebastiankamphpatreon_v3.json
+    version: 0
