@@ -36,7 +36,7 @@
     },
     "13": {
         "inputs": {
-            "image": "ComfyUI_temp_vsbtx_00003_.png",
+            "image": "ComfyUI_temp_yibjx_00003_.png",
             "upload": "image"
         },
         "class_type": "LoadImage",
