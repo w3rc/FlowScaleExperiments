@@ -3,9 +3,21 @@ models: models.json
 custom_nodes: custom_nodes.json
 user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
-workflows: []
+workflows:
+  - id: l3akvn4ew4s
+    name: rembg_api.json
+    file: test1/rembg_api.json
+    version: 0
+    description: ''
+    inputs: []
+    outputs: []
+    skip_preprocess: true
 normal_workflows:
   - id: 14smtin5lhh
     name: flux_acefaceswap_sebastiankamphpatreon_v3.json
     file: test1/flux_acefaceswap_sebastiankamphpatreon_v3.json
+    version: 0
+  - id: s5z7y1hm7th
+    name: rembg.json
+    file: test1/rembg.json
     version: 0
