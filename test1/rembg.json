@@ -1,0 +1,188 @@
+{
+    "last_node_id": 13,
+    "last_link_id": 12,
+    "nodes": [
+        {
+            "id": 10,
+            "type": "BRIA_RMBG_Zho",
+            "pos": [
+                778.27294921875,
+                193.63638305664062
+            ],
+            "size": [
+                210,
+                46
+            ],
+            "flags": {},
+            "order": 2,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "rmbgmodel",
+                    "type": "RMBGMODEL",
+                    "link": 10
+                },
+                {
+                    "name": "image",
+                    "type": "IMAGE",
+                    "link": 12
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "image",
+                    "type": "IMAGE",
+                    "links": [
+                        11
+                    ],
+                    "slot_index": 0
+                },
+                {
+                    "name": "mask",
+                    "type": "MASK",
+                    "links": null
+                }
+            ],
+            "properties": {
+                "aux_id": "ZHO-ZHO-ZHO/ComfyUI-BRIA_AI-RMBG",
+                "ver": "827fcd63ff0cfa7fbc544b8d2f4c1e3f3012742d",
+                "Node name for S&R": "BRIA_RMBG_Zho"
+            }
+        },
+        {
+            "id": 11,
+            "type": "BRIA_RMBG_ModelLoader_Zho",
+            "pos": [
+                328.9153137207031,
+                142.53541564941406
+            ],
+            "size": [
+                246.03639221191406,
+                34.181819915771484
+            ],
+            "flags": {},
+            "order": 0,
+            "mode": 0,
+            "inputs": [],
+            "outputs": [
+                {
+                    "name": "rmbgmodel",
+                    "type": "RMBGMODEL",
+                    "links": [
+                        10
+                    ]
+                }
+            ],
+            "properties": {
+                "aux_id": "ZHO-ZHO-ZHO/ComfyUI-BRIA_AI-RMBG",
+                "ver": "827fcd63ff0cfa7fbc544b8d2f4c1e3f3012742d",
+                "Node name for S&R": "BRIA_RMBG_ModelLoader_Zho"
+            }
+        },
+        {
+            "id": 12,
+            "type": "PreviewImage",
+            "pos": [
+                1076.18798828125,
+                180.71722412109375
+            ],
+            "size": [
+                210,
+                26
+            ],
+            "flags": {},
+            "order": 3,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "images",
+                    "type": "IMAGE",
+                    "link": 11
+                }
+            ],
+            "outputs": [],
+            "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.3.15",
+                "Node name for S&R": "PreviewImage"
+            }
+        },
+        {
+            "id": 13,
+            "type": "LoadImage",
+            "pos": [
+                151.64251708984375,
+                235.26280212402344
+            ],
+            "size": [
+                315,
+                314
+            ],
+            "flags": {},
+            "order": 1,
+            "mode": 0,
+            "inputs": [],
+            "outputs": [
+                {
+                    "name": "IMAGE",
+                    "type": "IMAGE",
+                    "links": [
+                        12
+                    ]
+                },
+                {
+                    "name": "MASK",
+                    "type": "MASK",
+                    "links": null
+                }
+            ],
+            "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.3.15",
+                "Node name for S&R": "LoadImage"
+            },
+            "widgets_values": [
+                "ComfyUI_temp_vsbtx_00003_.png",
+                "image"
+            ]
+        }
+    ],
+    "links": [
+        [
+            10,
+            11,
+            0,
+            10,
+            0,
+            "RMBGMODEL"
+        ],
+        [
+            11,
+            10,
+            0,
+            12,
+            0,
+            "IMAGE"
+        ],
+        [
+            12,
+            13,
+            0,
+            10,
+            1,
+            "IMAGE"
+        ]
+    ],
+    "groups": [],
+    "config": {},
+    "extra": {
+        "ds": {
+            "scale": 1.1,
+            "offset": {
+                "0": -141.64248657226562,
+                "1": 42.91913604736328
+            }
+        }
+    },
+    "version": 0.4
+}
