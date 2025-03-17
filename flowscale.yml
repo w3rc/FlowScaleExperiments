@@ -13,3 +13,7 @@ normal_workflows:
     name: flux_acefaceswap_sebastiankamphpatreon_v3.json
     file: test/flux_acefaceswap_sebastiankamphpatreon_v3.json
     version: 0
+  - id: aq47xg3e0wk
+    name: flux_ace++faceswap_sebastiankamph-patreon_v3_(1).json
+    file: test/flux_ace++faceswap_sebastiankamph-patreon_v3_(1).json
+    version: 0
