@@ -47,7 +47,8 @@
                 "aux_id": "ZHO-ZHO-ZHO/ComfyUI-BRIA_AI-RMBG",
                 "ver": "827fcd63ff0cfa7fbc544b8d2f4c1e3f3012742d",
                 "Node name for S&R": "BRIA_RMBG_Zho"
-            }
+            },
+            "widgets_values": []
         },
         {
             "id": 11,
@@ -77,7 +78,8 @@
                 "aux_id": "ZHO-ZHO-ZHO/ComfyUI-BRIA_AI-RMBG",
                 "ver": "827fcd63ff0cfa7fbc544b8d2f4c1e3f3012742d",
                 "Node name for S&R": "BRIA_RMBG_ModelLoader_Zho"
-            }
+            },
+            "widgets_values": []
         },
         {
             "id": 12,
@@ -88,7 +90,7 @@
             ],
             "size": [
                 210,
-                26
+                246
             ],
             "flags": {},
             "order": 3,
@@ -105,14 +107,15 @@
                 "cnr_id": "comfy-core",
                 "ver": "0.3.15",
                 "Node name for S&R": "PreviewImage"
-            }
+            },
+            "widgets_values": []
         },
         {
             "id": 13,
             "type": "LoadImage",
             "pos": [
-                151.64251708984375,
-                235.26280212402344
+                223.14254760742188,
+                244.06285095214844
             ],
             "size": [
                 315,
@@ -142,7 +145,7 @@
                 "Node name for S&R": "LoadImage"
             },
             "widgets_values": [
-                "ComfyUI_temp_vsbtx_00003_.png",
+                "ComfyUI_temp_yibjx_00003_.png",
                 "image"
             ]
         }
@@ -177,11 +180,11 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 1.1,
-            "offset": {
-                "0": -141.64248657226562,
-                "1": 42.91913604736328
-            }
+            "scale": 0.9090909090909091,
+            "offset": [
+                -70.61764719238238,
+                136.20635182087196
+            ]
         }
     },
     "version": 0.4
