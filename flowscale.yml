@@ -7,7 +7,7 @@ workflows:
   - id: l3akvn4ew4s
     name: rembg_api.json
     file: test1/rembg_api.json
-    version: 0
+    version: 1
     description: ''
     inputs: []
     outputs: []
@@ -20,4 +20,4 @@ normal_workflows:
   - id: s5z7y1hm7th
     name: rembg.json
     file: test1/rembg.json
-    version: 0
+    version: 1
