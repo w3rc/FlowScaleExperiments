@@ -4,16 +4,4 @@ custom_nodes: custom_nodes.json
 user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
 workflows: []
-normal_workflows:
-  - id: o0yd2cw6bq
-    name: ace_plus_fft_workflow_referenceediting_generation.json
-    file: test/ace_plus_fft_workflow_referenceediting_generation.json
-    version: 0
-  - id: 7rtjmexaa3d
-    name: flux_acefaceswap_sebastiankamphpatreon_v3.json
-    file: test/flux_acefaceswap_sebastiankamphpatreon_v3.json
-    version: 0
-  - id: aq47xg3e0wk
-    name: flux_ace++faceswap_sebastiankamph-patreon_v3_(1).json
-    file: test/flux_ace++faceswap_sebastiankamph-patreon_v3_(1).json
-    version: 0
+normal_workflows: []
