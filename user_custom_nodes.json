@@ -25,5 +25,56 @@
     "pip": [],
     "preemptions": [],
     "cached": "False"
+  },
+  {
+    "name": "ComfyUI Impact Pack",
+    "url": "https://github.com/ltdrdata/ComfyUI-Impact-Pack",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "Dr.Lt.Data",
+      "title": "ComfyUI Impact Pack",
+      "id": "comfyui-impact-pack",
+      "reference": "https://github.com/ltdrdata/ComfyUI-Impact-Pack",
+      "files": [
+        "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
+      ],
+      "install_type": "git-clone",
+      "description": "This node pack offers various detector nodes and detailer nodes that allow you to configure a workflow that automatically enhances facial details. And provide iterative upscaler.\nNOTE: To use the UltralyticsDetectorProvider, you must install the 'ComfyUI Impact Subpack' separately."
+    },
+    "nodes": [
+      "ImpactGaussianBlurMask"
+    ],
+    "apt": [],
+    "pip": [],
+    "preemptions": [
+      "SAMLoader"
+    ],
+    "cached": "False"
+  },
+  {
+    "name": "ComfyUI Essentials",
+    "url": "https://github.com/cubiq/ComfyUI_essentials",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "cubiq",
+      "title": "ComfyUI Essentials",
+      "id": "essentials",
+      "reference": "https://github.com/cubiq/ComfyUI_essentials",
+      "files": [
+        "https://github.com/cubiq/ComfyUI_essentials"
+      ],
+      "install_type": "git-clone",
+      "description": "Essential nodes that are weirdly missing from ComfyUI core. With few exceptions they are new features and not commodities. I hope this will be just a temporary repository until the nodes get included into ComfyUI."
+    },
+    "nodes": [
+      "ImageResize+",
+      "ImageResize+"
+    ],
+    "apt": [],
+    "pip": [],
+    "preemptions": [],
+    "cached": "False"
   }
 ]
