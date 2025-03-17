@@ -4,8 +4,4 @@ custom_nodes: custom_nodes.json
 user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
 workflows: []
-normal_workflows:
-  - id: as3prmea6cn
-    name: flux_acefaceswap_sebastiankamphpatreon_v3.json
-    file: test1/flux_acefaceswap_sebastiankamphpatreon_v3.json
-    version: 0
+normal_workflows: []
