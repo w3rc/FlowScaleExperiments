@@ -27,32 +27,6 @@
     "cached": "False"
   },
   {
-    "name": "ComfyUI Impact Pack",
-    "url": "https://github.com/ltdrdata/ComfyUI-Impact-Pack",
-    "path": "custom_nodes",
-    "fetch_type": "git-clone",
-    "details": {
-      "author": "Dr.Lt.Data",
-      "title": "ComfyUI Impact Pack",
-      "id": "comfyui-impact-pack",
-      "reference": "https://github.com/ltdrdata/ComfyUI-Impact-Pack",
-      "files": [
-        "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
-      ],
-      "install_type": "git-clone",
-      "description": "This node pack offers various detector nodes and detailer nodes that allow you to configure a workflow that automatically enhances facial details. And provide iterative upscaler.\nNOTE: To use the UltralyticsDetectorProvider, you must install the 'ComfyUI Impact Subpack' separately."
-    },
-    "nodes": [
-      "ImpactGaussianBlurMask"
-    ],
-    "apt": [],
-    "pip": [],
-    "preemptions": [
-      "SAMLoader"
-    ],
-    "cached": "False"
-  },
-  {
     "name": "ComfyUI Essentials",
     "url": "https://github.com/cubiq/ComfyUI_essentials",
     "path": "custom_nodes",
