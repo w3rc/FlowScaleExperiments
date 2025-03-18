@@ -26,5 +26,26 @@
     "pip": [],
     "apt": [],
     "cached": "False"
+  },
+  {
+    "name": "Efficiency Nodes for ComfyUI Version 2.0+",
+    "url": "https://github.com/jags111/efficiency-nodes-comfyui",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "jags111",
+      "title": "Efficiency Nodes for ComfyUI Version 2.0+",
+      "id": "eff-nodes",
+      "reference": "https://github.com/jags111/efficiency-nodes-comfyui",
+      "files": [
+        "https://github.com/jags111/efficiency-nodes-comfyui"
+      ],
+      "install_type": "git-clone",
+      "description": "A collection of ComfyUI custom nodes to help streamline workflows and reduce total node count.[w/NOTE: This node is originally created by LucianoCirino, but the [a/original repository](https://github.com/LucianoCirino/efficiency-nodes-comfyui) is no longer maintained and has been forked by a new maintainer. To use the forked version, you should uninstall the original version and **REINSTALL** this one.]"
+    },
+    "nodes": [],
+    "pip": [],
+    "apt": [],
+    "cached": "False"
   }
 ]
