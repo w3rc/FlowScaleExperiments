@@ -52,30 +52,6 @@
     "cached": "False"
   },
   {
-    "name": "ComfyUI-TeaCache",
-    "url": "https://github.com/welltop-cn/ComfyUI-TeaCache",
-    "path": "custom_nodes",
-    "fetch_type": "git-clone",
-    "details": {
-      "author": "welltop-cn",
-      "title": "ComfyUI-TeaCache",
-      "id": "teacache",
-      "reference": "https://github.com/welltop-cn/ComfyUI-TeaCache",
-      "files": [
-        "https://github.com/welltop-cn/ComfyUI-TeaCache"
-      ],
-      "install_type": "git-clone",
-      "description": "Unofficial implementation of [ali-vilab/TeaCache](https://github.com/ali-vilab/TeaCache) for ComfyUI"
-    },
-    "nodes": [
-      "TeaCache"
-    ],
-    "apt": [],
-    "pip": [],
-    "preemptions": [],
-    "cached": "False"
-  },
-  {
     "name": "ComfyUI-BRIA_AI-RMBG",
     "url": "https://github.com/ZHO-ZHO-ZHO/ComfyUI-BRIA_AI-RMBG",
     "path": "custom_nodes",
