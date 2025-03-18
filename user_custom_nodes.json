@@ -1,32 +1,5 @@
 [
   {
-    "name": "KJNodes for ComfyUI",
-    "url": "https://github.com/kijai/ComfyUI-KJNodes",
-    "path": "custom_nodes",
-    "fetch_type": "git-clone",
-    "details": {
-      "author": "kijai",
-      "title": "KJNodes for ComfyUI",
-      "id": "kjnodes",
-      "reference": "https://github.com/kijai/ComfyUI-KJNodes",
-      "files": [
-        "https://github.com/kijai/ComfyUI-KJNodes"
-      ],
-      "install_type": "git-clone",
-      "description": "Various quality of life -nodes for ComfyUI, mostly just visual stuff to improve usability."
-    },
-    "nodes": [
-      "ImageAndMaskPreview",
-      "ImageConcanate",
-      "ResizeMask",
-      "ImageConcanate"
-    ],
-    "apt": [],
-    "pip": [],
-    "preemptions": [],
-    "cached": "False"
-  },
-  {
     "name": "ComfyUI-GGUF",
     "url": "https://github.com/city96/ComfyUI-GGUF",
     "path": "custom_nodes",
