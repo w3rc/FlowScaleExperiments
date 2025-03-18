@@ -52,27 +52,6 @@
     "cached": "False"
   },
   {
-    "name": "ComfyUI-BRIA_AI-RMBG",
-    "url": "https://github.com/ZHO-ZHO-ZHO/ComfyUI-BRIA_AI-RMBG",
-    "path": "custom_nodes",
-    "fetch_type": "git-clone",
-    "details": {
-      "author": "ZHO-ZHO-ZHO",
-      "title": "ComfyUI-BRIA_AI-RMBG",
-      "id": "bria-ai-rmbg",
-      "reference": "https://github.com/ZHO-ZHO-ZHO/ComfyUI-BRIA_AI-RMBG",
-      "files": [
-        "https://github.com/ZHO-ZHO-ZHO/ComfyUI-BRIA_AI-RMBG"
-      ],
-      "install_type": "git-clone",
-      "description": "Unofficial implementation of BRIA RMBG Model for ComfyUI."
-    },
-    "nodes": [],
-    "pip": [],
-    "apt": [],
-    "cached": "False"
-  },
-  {
     "name": "ComfyUI-GGUF",
     "url": "https://github.com/city96/ComfyUI-GGUF",
     "path": "custom_nodes",
