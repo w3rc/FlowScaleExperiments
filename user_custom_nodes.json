@@ -47,5 +47,26 @@
     "pip": [],
     "apt": [],
     "cached": "False"
+  },
+  {
+    "name": "ComfyUI_Patches_ll",
+    "url": "https://github.com/lldacing/ComfyUI_Patches_ll",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "lldacing",
+      "title": "ComfyUI_Patches_ll",
+      "reference": "https://github.com/lldacing/ComfyUI_Patches_ll",
+      "files": [
+        "https://github.com/lldacing/ComfyUI_Patches_ll"
+      ],
+      "install_type": "git-clone",
+      "description": "Some patches for Flux|HunYuanVideo|LTXVideo etc, support TeaCache, PuLID, First Block Cache."
+    },
+    "nodes": [],
+    "pip": [],
+    "apt": [],
+    "cached": "False",
+    "sha": "952782a1e5707452927555ed2692339a3736b13b"
   }
 ]
