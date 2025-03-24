@@ -12,6 +12,14 @@ workflows:
     inputs: []
     outputs: []
     skip_preprocess: true
+  - id: s1uorzsmvxb
+    name: flux_acefaceswap_sebastiankamphpatreon_v3.json
+    description: ''
+    file: test1/flux_acefaceswap_sebastiankamphpatreon_v3.json
+  - id: hc422m31y4l
+    name: rembg.json
+    description: ''
+    file: test1/rembg.json
 normal_workflows:
   - id: 14smtin5lhh
     name: flux_acefaceswap_sebastiankamphpatreon_v3.json
